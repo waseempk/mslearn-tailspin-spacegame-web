@@ -1,6 +1,7 @@
 ﻿pool:
   vmImage: 'Ubuntu-16.04'
-  demands: npm
+  demands:
+    - npm
 
 steps:
 - task: DotNetCoreInstaller@0
