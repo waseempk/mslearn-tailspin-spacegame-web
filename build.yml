@@ -1,4 +1,5 @@
-﻿parameters:
+﻿
+parameters:
   buildConfiguration:
 steps:
 - task: DotNetCoreCLI@2
