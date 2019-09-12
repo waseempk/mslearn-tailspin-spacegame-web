@@ -1,6 +1,6 @@
 ﻿
 parameters:
-  buildConfiguration: ''
+   buildConfiguration: ''
 
 steps:
 - task: DotNetCoreCLI@2
