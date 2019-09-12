@@ -1,6 +1,4 @@
-﻿parameters:
-  buildConfiguration: ''
-steps:
+﻿steps:
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
   inputs:
