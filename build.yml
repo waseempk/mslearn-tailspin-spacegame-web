@@ -1,6 +1,5 @@
 ﻿parameters:
   buildConfiguration: ''
-
 steps:
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
@@ -14,6 +13,6 @@ steps:
   inputs:
     command: 'publish'
     projects: '**/*.csproj'
-    publishWebProjects: false
+    publishWebProjects: 'false'
     arguments: '--no-build --configuration ${{ parameters.buildConfiguration }} --output $(Build.ArtifactStagingDirectory)/${{ parameters.BuildConfiguration }}'
-    zipAfterPublish: true
+    zipAfterPublish: 'true'
