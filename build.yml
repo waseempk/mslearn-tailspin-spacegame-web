@@ -1,4 +1,5 @@
-﻿parameters:
+﻿
+parameters:
   buildConfiguration: 'Release'
 
 steps:
